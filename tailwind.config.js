@@ -22,6 +22,9 @@ module.exports = {
         primary: 'var(--text-primary)',
         secondary: 'var(--text-secondary)',
       },
+      boxShadow: {
+        'roadmap': '0px 8px 24px 0px rgba(0,0,0,0.1);',
+      },
       container: {
         center: true,
         padding: {

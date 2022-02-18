@@ -28,4 +28,5 @@ html,
 body {
   font-family: Poppins;
   @apply bg-primary text-primary overflow-x-hidden;
+  background-color: #f4f6f6;
 }
