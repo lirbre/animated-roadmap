@@ -18,7 +18,7 @@
 .dark,
 [data-theme = "dark"] {
   --bg-primary: #131416;
-  --bg-secondary: #1c1c1c;
+  --bg-secondary: #f4f6f6;
 
   --text-primary: #bebebe;
   --text-secondary: #dedede;
@@ -28,5 +28,5 @@ html,
 body {
   font-family: Poppins;
   @apply bg-primary text-primary overflow-x-hidden;
-  background-color: #f4f6f6;
+  /* background-color: #f4f6f6; */
 }

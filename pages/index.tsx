@@ -7,11 +7,11 @@ const Home = () => {
 
   return (
     <div>
-      {/* <button
+      <button
         onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
       >
         click here to change the theme
-      </button> */}
+      </button>
 
       <div className="container mt-10 text-center max-w-[90ch]">
         <h2 className='text-orange-400 max-w-4xl'>ROADMAP</h2>
