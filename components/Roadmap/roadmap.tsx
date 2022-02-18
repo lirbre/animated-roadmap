@@ -14,6 +14,7 @@ const Roadmap = () => {
                     infoContent1={roadmapContent?.infoContent1}
                     infoContent2={roadmapContent?.infoContent2}
                     infoContent3={roadmapContent?.infoContent3}
+                    key={i}
                 />
             ))}
         </>
