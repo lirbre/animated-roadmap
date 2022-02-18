@@ -6,7 +6,7 @@ const Piece = ({ title, infoTitle, infoContent1, infoContent2, infoContent3 }: c
             <div className='bg-orange-400 w-24 h-16 rounded-[80px] flex items-center justify-center font-black'>
                 {title}
             </div>
-            <div className='w-4/5 bg-white shadow-roadmap ml-[-17px] mt-[40px] rounded-xl flex text-left flex-col p-8'>
+            <div className='w-4/5 bg-white shadow-roadmap -ml-4 mt-[40px] rounded-xl flex text-left flex-col p-8'>
                 <p className="font-black text-black mb-2">{infoTitle}</p>
                 <small className="mt-1">{infoContent1}</small>
                 <small className="mt-1">{infoContent2}</small>
